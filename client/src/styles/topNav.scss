@@ -16,7 +16,12 @@
       height: 90%;
       width: 50%;
       #nav-bar-menu{
-        margin: 2vw;;
+        margin: 2vw;
+        :hover {
+          cursor: pointer;
+          background-color: #E6BD41;
+          border-radius: 10px;
+        }
       }
     
     
