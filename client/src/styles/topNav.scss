@@ -62,7 +62,7 @@
   }
   
   #nav-bar-menu-dropdown{
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     ul {
       padding: 0;
     }
@@ -70,6 +70,12 @@
       font-family: 'Silkscreen', cursive;
       padding: 0.5rem;
       background-color: #E6BD41;
+
+      #nav-dropdown-close-icon{
+        font-size: medium;
+        padding-top: 2.5px;
+      }
+
     }
   }
   

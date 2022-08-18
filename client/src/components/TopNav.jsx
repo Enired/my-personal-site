@@ -1,9 +1,16 @@
+//React
+import { useState } from "react";
+
+//MUI Materials
 import { AppBar, Toolbar } from "@mui/material"
+import {Menu, MenuItem} from "@mui/material";
+//MUI Icons
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
+import CancelOutlinedIcon from '@mui/icons-material/CancelOutlined';
+//Styles
 import "../styles/topNav.scss"
 import img from "../assets/logo.png"
-import { useState } from "react";
-import {Menu, MenuItem} from "@mui/material";
+
 export const TopNav = () => {
 
   //FOR DROPDOWN MENU -- START
@@ -38,7 +45,7 @@ export const TopNav = () => {
           <MenuItem className="nav-bar-menu-dropdown-item" onClick={()=>{console.log('Clicked Skills Link')}}>Skills</MenuItem>
           <MenuItem className="nav-bar-menu-dropdown-item" onClick={()=>{console.log('Clicked Projects Link')}}>Projects</MenuItem>
           <MenuItem className="nav-bar-menu-dropdown-item" onClick={()=>{console.log('Clicked Contact Me Link')}}>Contact Me</MenuItem>
-          <MenuItem className="nav-bar-menu-dropdown-item" onClick={(event)=>{closeMenu(event)}}>Close</MenuItem>
+          <MenuItem className="nav-bar-menu-dropdown-item" onClick={(event)=>{closeMenu(event)}}>Close<CancelOutlinedIcon id="nav-dropdown-close-icon"/></MenuItem>
         </Menu>
 
         
