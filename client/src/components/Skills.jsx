@@ -2,6 +2,10 @@
 import javascriptLogo from "../assets/skills_icons/javascript.png"
 import rubyLogo from "../assets/skills_icons/ruby.png"
 import reactLogo from "../assets/skills_icons/react.webp"
+import pythonLogo from "../assets/skills_icons/python.png"
+import nodeLogo from "../assets/skills_icons/nodejs.webp"
+import storybookLogo from "../assets/skills_icons/storybook.png"
+
 
 //Import Style
 import "../styles/skills.scss"
@@ -19,13 +23,29 @@ export const Skills = () => {
         </div>
 
         <div className="skill">
+          <img src={reactLogo} alt="ReactJS" className="skill-logo" />
+          <p className="skill-tag">ReactJS</p>
+        </div>
+
+        <div className="skill">
           <img src={rubyLogo} alt="Ruby" className="skill-logo" />
           <p className="skill-tag">Ruby</p>
         </div>
         
+
         <div className="skill">
-          <img src={reactLogo} alt="React" className="skill-logo" />
-          <p className="skill-tag">React</p>
+          <img src={pythonLogo} alt="Python" className="skill-logo" />
+          <p className="skill-tag">Python</p>
+        </div>
+        
+        <div className="skill">
+          <img src={nodeLogo} alt="NodeJS" className="skill-logo" />
+          <p className="skill-tag">NodeJS</p>
+        </div>
+
+        <div className="skill">
+          <img src={storybookLogo} alt="Express" className="skill-logo" />
+          <p className="skill-tag">Express</p>
         </div>
 
       </div>
