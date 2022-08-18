@@ -23,8 +23,8 @@
           border-radius: 10px;
         }
       }
-    
-    
+      
+      
       #title-bundle{
         margin: 2vw;
         display: flex;
@@ -54,11 +54,19 @@
         }
       }
     }
-    
-  
-  
-  
   }
-
-@media only screen and (min-width: 481px){
-}
+  
+  #nav-bar-menu-dropdown{
+    margin-top: 0.5rem;
+    ul {
+      padding: 0;
+    }
+    .nav-bar-menu-dropdown-item{
+      padding: 0.5rem;
+      background-color: #E6BD41;
+    }
+  }
+  
+  @media only screen and (min-width: 481px){
+  }
+  

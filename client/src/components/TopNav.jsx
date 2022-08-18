@@ -30,12 +30,12 @@ export const TopNav = () => {
         <MenuOutlinedIcon />
         </div>
 
-        <Menu
+        <Menu id="nav-bar-menu-dropdown"
         anchorEl={anchor}
         open={open}
         >
-          <MenuItem onClick={()=>{console.log('Clicked About Me Link')}}>About Me</MenuItem>
-          <MenuItem onClick={(event)=>{closeMenu(event)}}>Close</MenuItem>
+          <MenuItem className="nav-bar-menu-dropdown-item" onClick={()=>{console.log('Clicked About Me Link')}}>About Me</MenuItem>
+          <MenuItem className="nav-bar-menu-dropdown-item" onClick={(event)=>{closeMenu(event)}}>Close</MenuItem>
         </Menu>
 
         
