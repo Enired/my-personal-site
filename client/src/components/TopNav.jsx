@@ -35,6 +35,9 @@ export const TopNav = () => {
         open={open}
         >
           <MenuItem className="nav-bar-menu-dropdown-item" onClick={()=>{console.log('Clicked About Me Link')}}>About Me</MenuItem>
+          <MenuItem className="nav-bar-menu-dropdown-item" onClick={()=>{console.log('Clicked Skills Link')}}>Skills</MenuItem>
+          <MenuItem className="nav-bar-menu-dropdown-item" onClick={()=>{console.log('Clicked Projects Link')}}>Projects</MenuItem>
+          <MenuItem className="nav-bar-menu-dropdown-item" onClick={()=>{console.log('Clicked Contact Me Link')}}>Contact Me</MenuItem>
           <MenuItem className="nav-bar-menu-dropdown-item" onClick={(event)=>{closeMenu(event)}}>Close</MenuItem>
         </Menu>
 
