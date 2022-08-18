@@ -1,6 +1,7 @@
 //Mobile View
 
   #main-nav-bar {
+    font-family: 'Silkscreen', cursive;
     display: flex;
     flex-direction: row;
     background-color: #943141;
@@ -31,11 +32,15 @@
         flex-direction: column;
         align-items: flex-start;
         #title-header-name{
+          display: flex;
+          text-align: left;
           margin-top: 2vw;
           margin-bottom: 0;
           color: #E6BD41;
         }
         #title-header-occupation{
+          display: flex;
+          text-align: left;
           margin-top: 0;
           margin-bottom: 2vw;
           color: #ffffff
@@ -62,6 +67,7 @@
       padding: 0;
     }
     .nav-bar-menu-dropdown-item{
+      font-family: 'Silkscreen', cursive;
       padding: 0.5rem;
       background-color: #E6BD41;
     }
