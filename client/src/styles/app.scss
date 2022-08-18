@@ -1,6 +1,26 @@
 //Mobile View
 #main-area{
   margin-top: 10vh;
+  background-color: #aa3d4f;
+  height: 90vh;
+  padding-left: 6vw;
+  padding-right: 6vw;
+
+  
+  .area-section{
+    color: #ffffff;
+    .section-header{
+      padding-top: 12px;
+      margin-bottom: 8px;
+    }
+    .section-body{
+      margin-top: 8px;
+      margin-bottom: 8px;
+      padding-left: 5vw;
+      padding-right: 5vw;
+      text-align: justify;
+    }
+  }
 }
 
 //Desktop View
