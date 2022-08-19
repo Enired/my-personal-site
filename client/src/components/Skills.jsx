@@ -13,6 +13,8 @@ import materialUILogo from "../assets/skills_icons/MaterialUI.png"
 import postgressqlLogo from "../assets/skills_icons/postgresql.png"
 import railsLogo from "../assets/skills_icons/rubyonrails.png"
 import sassLogo from "../assets/skills_icons/sass.webp"
+import sqlLogo from "../assets/skills_icons/sql.webp"
+import gitLogo from "../assets/skills_icons/git.png"
 
 
 //Import Style
@@ -85,6 +87,10 @@ export const Skills = () => {
           <img src={postgressqlLogo} alt="PostgreSQL" className="skill-logo" />
           <p className="skill-tag">PostgreSQL</p>
         </div>
+        <div className="skill">
+          <img src={sqlLogo} alt="SQL" className="skill-logo" />
+          <p className="skill-tag">SQL</p>
+        </div>
 
         <div className="skill">
           <img src={railsLogo} alt="Rails" className="skill-logo" />
@@ -94,6 +100,11 @@ export const Skills = () => {
         <div className="skill">
           <img src={sassLogo} alt="SASS" className="skill-logo" />
           <p className="skill-tag">SASS</p>
+        </div>
+
+        <div className="skill">
+          <img src={gitLogo} alt="Git" className="skill-logo" />
+          <p className="skill-tag">Git</p>
         </div>
 
       </div>
