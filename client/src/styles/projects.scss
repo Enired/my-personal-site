@@ -1,0 +1,22 @@
+#all-project{
+  display: flex;
+
+}
+
+.project{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .project-title{
+  
+  }
+  .project-gif{
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+    border: solid yellow 3px;
+  }
+  .project-desc{
+    text-align: center;
+  }
+}
