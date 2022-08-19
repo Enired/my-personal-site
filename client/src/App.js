@@ -5,6 +5,7 @@ import "./styles/app.scss"
 import { TopNav} from './components/TopNav';
 import { AboutMe } from './components/AboutMe';
 import { Skills } from './components/Skills';
+import { Projects } from './components/Projects';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <div id="main-area">
       <AboutMe/>
       <Skills/>
+      <Projects/>
       </div>
     </div>
   );
