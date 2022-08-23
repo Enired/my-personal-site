@@ -4,7 +4,7 @@ import "../styles/contact.scss"
 
 export const Contact = (props) => {
   return (
-    <div className="area-section" id="contact-me-section" ref={props.currentRef}>
+    <div className="area-section" id="contact-me-section" ref={props.contactRef}>
       <h1 className="section-header">Contact</h1>
       <div className="section-body">
         <ul id="contact-links">

@@ -41,11 +41,38 @@ export const TopNav = (props) => {
         anchorEl={anchor}
         open={open}
         >
-          <MenuItem className="nav-bar-menu-dropdown-item" onClick={()=>{console.log('Clicked About Me Link')}}>About Me</MenuItem>
-          <MenuItem className="nav-bar-menu-dropdown-item" onClick={()=>{console.log('Clicked Skills Link')}}>Skills</MenuItem>
-          <MenuItem className="nav-bar-menu-dropdown-item" onClick={()=>{console.log('Clicked Projects Link')}}>Projects</MenuItem>
-          <MenuItem className="nav-bar-menu-dropdown-item" onClick={()=>{props.executeScroll()}}>Contact Me</MenuItem>
-          <MenuItem className="nav-bar-menu-dropdown-item" onClick={(event)=>{closeMenu(event)}}>Close<CancelOutlinedIcon id="nav-dropdown-close-icon"/></MenuItem>
+          <MenuItem 
+          className="nav-bar-menu-dropdown-item" 
+          onClick={()=>{props.autoScroll(props.aboutMeRef)}}
+          >
+            About Me
+          </MenuItem>
+
+          <MenuItem 
+          className="nav-bar-menu-dropdown-item" 
+          onClick={()=>{props.autoScroll(props.skillsRef)}}>
+            Skills
+          </MenuItem>
+
+          <MenuItem 
+          className="nav-bar-menu-dropdown-item" 
+          onClick={()=>{props.autoScroll(props.projectRef)}}>
+            Projects
+          </MenuItem>
+
+          <MenuItem 
+          className="nav-bar-menu-dropdown-item" 
+          onClick={()=>{props.autoScroll(props.contactRef)}}>
+            Contact Me
+          </MenuItem>
+          
+          <MenuItem 
+          className="nav-bar-menu-dropdown-item" 
+          onClick={(event)=>{closeMenu(event)}}>
+            Close
+            <CancelOutlinedIcon 
+            id="nav-dropdown-close-icon"/>
+          </MenuItem>
         </Menu>
 
         

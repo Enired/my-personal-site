@@ -7,9 +7,9 @@ import scheduler from "../assets/project_gifs/scheduler.gif"
 //Import Style
 import "../styles/projects.scss"
 
-export const Projects = () => {
+export const Projects = (props) => {
   return(
-    <div className="area-section" id="projects-section">
+    <div className="area-section" id="projects-section" ref={props.projectRef}>
       <h1 className="section-header">Projects</h1>
       <div id="all-projects">
         

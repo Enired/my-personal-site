@@ -20,10 +20,10 @@ import gitLogo from "../assets/skills_icons/git.png"
 //Import Style
 import "../styles/skills.scss"
 
-export const Skills = () => {
+export const Skills = (props) => {
 
   return(
-    <div className="area-section" id="skills-section">
+    <div className="area-section" id="skills-section" ref={props.skillsRef}>
       <h1 className="section-header">Skills</h1>
       <div id="skills-icons">
 
