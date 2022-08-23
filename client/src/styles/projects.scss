@@ -8,14 +8,14 @@
   flex-direction: column;
   align-items: center;
   .project-title{
-  
+    color: white;
   }
   .project-gif{
     width: 300px;
     height: auto;
     cursor: pointer;
-    border: solid black 3px;
-    box-shadow: slategrey 5px 5px;
+    border: solid white 3px;
+    box-shadow: slategrey 5px 5px 3px;
   }
   .project-desc{
     text-align: justify;
