@@ -40,35 +40,36 @@ export const TopNav = (props) => {
         <Menu id="nav-bar-menu-dropdown"
         anchorEl={anchor}
         open={open}
+        onClose={closeMenu}
         >
           <MenuItem 
           className="nav-bar-menu-dropdown-item" 
-          onClick={(event)=>{props.autoScroll(props.aboutMeRef); closeMenu(event)}}
+          onClick={()=>{props.autoScroll(props.aboutMeRef); closeMenu()}}
           >
             About Me
           </MenuItem>
 
           <MenuItem 
           className="nav-bar-menu-dropdown-item" 
-          onClick={(event)=>{props.autoScroll(props.skillsRef); closeMenu(event)}}>
+          onClick={()=>{props.autoScroll(props.skillsRef); closeMenu()}}>
             Skills
           </MenuItem>
 
           <MenuItem 
           className="nav-bar-menu-dropdown-item" 
-          onClick={(event)=>{props.autoScroll(props.projectRef); closeMenu(event)}}>
+          onClick={()=>{props.autoScroll(props.projectRef); closeMenu()}}>
             Projects
           </MenuItem>
 
           <MenuItem 
           className="nav-bar-menu-dropdown-item" 
-          onClick={(event)=>{props.autoScroll(props.contactRef); closeMenu(event)}}>
+          onClick={()=>{props.autoScroll(props.contactRef); closeMenu()}}>
             Contact Me
           </MenuItem>
           
           <MenuItem 
           className="nav-bar-menu-dropdown-item" 
-          onClick={(event)=>{closeMenu(event)}}>
+          onClick={()=>{closeMenu()}}>
             Close
             <CancelOutlinedIcon 
             id="nav-dropdown-close-icon"/>
