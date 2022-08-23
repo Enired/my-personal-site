@@ -11,7 +11,7 @@ import { Contact } from './components/Contact';
 function App() {
 
   const autoScroll = (ref) => {
-    window.scrollTo(0, ref.current.offsetTop)
+    window.scrollTo(0, (ref.current.offsetTop - ((window.innerHeight / 2) / 5)))
   }
 
   const aboutMeRef = useRef(null)
