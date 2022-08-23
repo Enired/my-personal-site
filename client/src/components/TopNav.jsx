@@ -43,26 +43,26 @@ export const TopNav = (props) => {
         >
           <MenuItem 
           className="nav-bar-menu-dropdown-item" 
-          onClick={()=>{props.autoScroll(props.aboutMeRef)}}
+          onClick={(event)=>{props.autoScroll(props.aboutMeRef); closeMenu(event)}}
           >
             About Me
           </MenuItem>
 
           <MenuItem 
           className="nav-bar-menu-dropdown-item" 
-          onClick={()=>{props.autoScroll(props.skillsRef)}}>
+          onClick={(event)=>{props.autoScroll(props.skillsRef); closeMenu(event)}}>
             Skills
           </MenuItem>
 
           <MenuItem 
           className="nav-bar-menu-dropdown-item" 
-          onClick={()=>{props.autoScroll(props.projectRef)}}>
+          onClick={(event)=>{props.autoScroll(props.projectRef); closeMenu(event)}}>
             Projects
           </MenuItem>
 
           <MenuItem 
           className="nav-bar-menu-dropdown-item" 
-          onClick={()=>{props.autoScroll(props.contactRef)}}>
+          onClick={(event)=>{props.autoScroll(props.contactRef); closeMenu(event)}}>
             Contact Me
           </MenuItem>
           
