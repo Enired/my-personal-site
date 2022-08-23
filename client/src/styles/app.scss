@@ -12,9 +12,13 @@
     flex-direction: column;
     .section-header{
       color:#e6bd41;
-      padding-top: 12px;
       margin-bottom: 8px;
       text-align: center;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      border: solid 1px;
+      border-radius: 8px;
     }
     .section-body{
       margin-top: 8px;
