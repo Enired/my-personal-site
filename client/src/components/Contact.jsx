@@ -1,11 +1,12 @@
 //Import Style
+import { useSlotProps } from "@mui/base";
 import "../styles/contact.scss"
 
-export const Contact = () => {
+export const Contact = (props) => {
   return (
-    <div className="area-section" id="contact-me-section">
+    <div className="area-section" id="contact-me-section" ref={props.currentRef}>
       <h1 className="section-header">Contact</h1>
-      <p className="section-body">
+      <div className="section-body">
         <ul id="contact-links">
           <li>LinkedIn : <a className="contact-link" href="https://www.linkedin.com/in/derine-banis-0913/">Derine Banis</a>
           </li>
@@ -14,7 +15,7 @@ export const Contact = () => {
             GitHub : <a className="contact-link" href="https://github.com/Enired">Enired</a>
           </li>
         </ul>
-      </p>
+      </div>
     </div>
   )
 }

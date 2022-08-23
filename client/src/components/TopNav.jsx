@@ -11,7 +11,7 @@ import CancelOutlinedIcon from '@mui/icons-material/CancelOutlined';
 import "../styles/topNav.scss"
 import img from "../assets/logo.png"
 
-export const TopNav = () => {
+export const TopNav = (props) => {
 
   //FOR DROPDOWN MENU -- START
   const [anchor, setAnchor] = useState(null)
@@ -44,7 +44,7 @@ export const TopNav = () => {
           <MenuItem className="nav-bar-menu-dropdown-item" onClick={()=>{console.log('Clicked About Me Link')}}>About Me</MenuItem>
           <MenuItem className="nav-bar-menu-dropdown-item" onClick={()=>{console.log('Clicked Skills Link')}}>Skills</MenuItem>
           <MenuItem className="nav-bar-menu-dropdown-item" onClick={()=>{console.log('Clicked Projects Link')}}>Projects</MenuItem>
-          <MenuItem className="nav-bar-menu-dropdown-item" onClick={()=>{console.log('Clicked Contact Me Link')}}>Contact Me</MenuItem>
+          <MenuItem className="nav-bar-menu-dropdown-item" onClick={()=>{props.executeScroll()}}>Contact Me</MenuItem>
           <MenuItem className="nav-bar-menu-dropdown-item" onClick={(event)=>{closeMenu(event)}}>Close<CancelOutlinedIcon id="nav-dropdown-close-icon"/></MenuItem>
         </Menu>
 
