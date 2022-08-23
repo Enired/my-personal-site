@@ -46,7 +46,7 @@ export const Projects = () => {
           <a href="https://github.com/Enired/jungle-ruby">
           <img className="project-gif" src={jungle} alt="Jungle Gif"></img>
           </a>
-          <p className="project-desc">E-commerce Website called Jungle. Done as a project for Lighthouse Labs Web Dev Bootcamp</p>
+          <p className="project-desc">E-commerce website inspired by Amazon in which users can purchase plants. Done as a project for Lighthouse Labs Web Dev Bootcamp</p>
         </div>
 
       </div>
