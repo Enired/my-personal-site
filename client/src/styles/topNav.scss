@@ -81,5 +81,57 @@
   }
   //Desktop View
   @media only screen and (min-width: 481px){
+
+    #main-nav-bar {
+      width: 100%;
+      height: 60px;
+      left: auto;
+      right: auto;
+      justify-content: space-around;
+      #nav-left{
+
+        #nav-bar-menu{
+        
+          :hover {
+            
+          }
+        }
+        
+        
+        #title-bundle{
+          
+          #title-header-name{
+            
+          }
+          #title-header-occupation{
+            
+          }
+        }
+      }
+      #nav-right{
+
+        #logo{
+          
+          :hover{
+            
+          }
+        }
+      }
+    }
+    
+    #nav-bar-menu-dropdown{
+     
+      ul {
+        
+      }
+      .nav-bar-menu-dropdown-item{
+        
+  
+        #nav-dropdown-close-icon{
+          
+        }
+  
+      }
+    }
   }
   

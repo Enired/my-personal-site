@@ -1,6 +1,6 @@
 //Mobile View
 #main-area{
-  margin-top: 10vh;
+  padding-top: 10vh;
   background-color: #10394a;
   padding-left: 6vw;
   padding-right: 6vw;
@@ -33,4 +33,19 @@
 
 //Desktop View
 @media only screen and (min-width: 481px){
+  #main-area{
+    justify-content: space-around;
+  
+    
+    .area-section{
+
+  
+      .section-header{
+
+      }
+      .section-body{
+
+      }
+    }
+  }
 }
