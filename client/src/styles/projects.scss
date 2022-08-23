@@ -14,9 +14,11 @@
     width: 300px;
     height: auto;
     cursor: pointer;
-    border: solid yellow 3px;
+    border: solid black 3px;
+    box-shadow: slategrey 5px 5px;
   }
   .project-desc{
-    text-align: center;
+    text-align: justify;
+    width: 300px;
   }
 }
