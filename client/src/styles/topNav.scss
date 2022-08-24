@@ -89,9 +89,9 @@
       right: auto;
       justify-content: space-around;
       #nav-left{
-
+        margin: 5px;
         #nav-bar-menu{
-        
+          padding-top: 5px;
           :hover {
             
           }
@@ -101,6 +101,7 @@
         #title-bundle{
           flex-direction: row;
           align-content: center;
+          margin: 0;
           
           #title-header-name{
             margin: 5px;
@@ -108,7 +109,7 @@
           }
           #title-header-occupation{
             margin: 5px;
-            padding-top: 6px;
+            padding-top: 5px;
             font-size: 16px;
           }
         }
