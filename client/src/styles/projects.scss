@@ -22,3 +22,29 @@
     width: 300px;
   }
 }
+//Desktop View
+@media only screen and (min-width: 481px){
+  #all-projects{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+  
+  }
+  
+  .project{
+    width: 500px;
+
+    
+
+    .project-title{
+      
+    }
+    .project-gif{
+      width: 400px;
+    }
+    .project-desc{
+      width: 400px;
+      font-size: 18px;
+    }
+  }
+}
