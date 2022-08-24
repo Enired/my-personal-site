@@ -1,3 +1,4 @@
+//Mobile View
 #skills-icons{
   display: flex;
   justify-content: space-around;
@@ -19,7 +20,7 @@
     }
   }
 }
-
+//Desktop View
 @media only screen and (min-width: 481px){
   #skills-icons{
     width: 600px
