@@ -99,12 +99,17 @@
         
         
         #title-bundle{
+          flex-direction: row;
+          align-content: center;
           
           #title-header-name{
-            
+            margin: 5px;
+            font-size: 22px;
           }
           #title-header-occupation{
-            
+            margin: 5px;
+            padding-top: 6px;
+            font-size: 16px;
           }
         }
       }
