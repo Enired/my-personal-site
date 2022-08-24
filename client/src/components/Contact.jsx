@@ -8,10 +8,10 @@ export const Contact = (props) => {
       <h1 className="section-header">Contact</h1>
       <div className="section-body">
         <ul id="contact-links">
-          <li>LinkedIn : <a className="contact-link" href="https://www.linkedin.com/in/derine-banis-0913/">Derine Banis</a>
+          <li className="contact-channel">LinkedIn : <a className="contact-link" href="https://www.linkedin.com/in/derine-banis-0913/">Derine Banis</a>
           </li>
-          <li>Email : <a className="contact-link" href="mailto:d.banis.13@gmail.com">d.banis@gmail.com</a> </li>
-          <li>
+          <li className="contact-channel">Email : <a className="contact-link" href="mailto:d.banis.13@gmail.com">d.banis@gmail.com</a> </li>
+          <li className="contact-channel">
             GitHub : <a className="contact-link" href="https://github.com/Enired">Enired</a>
           </li>
         </ul>

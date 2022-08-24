@@ -16,3 +16,13 @@
     }
   }
 }
+//Desktop View
+@media only screen and (min-width: 481px){
+  #contact-links{
+    flex-direction: row;
+    justify-content: space-around;
+    .contact-channel{
+      margin: 20px
+    }
+  }
+}
